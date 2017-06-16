@@ -1,0 +1,4 @@
+node_modules/*
+api/logs/*
+/node_modules
+/.idea

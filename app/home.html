@@ -1,0 +1,27 @@
+<div class="page-header-fixed">
+    <div class="header navbar navbar-inverse navbar-fixed-top">
+
+        <!-- BEGIN TOP NAVIGATION BAR -->
+        <div class="navbar-inner" style="color: #fff;text-align: center;font-size: 30px;line-height: 40px;">
+            FAQ内容管理系统
+            <div class="container-fluid" style="position: absolute;top:0;width: 100%">
+
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                    <img src="media/image/menu-toggler.png" alt=""/>
+                </a>
+
+            </div>
+        </div>
+        <!-- END TOP NAVIGATION BAR -->
+
+    </div>
+
+    <!-- END HEADER -->
+    <div class="page-container row-fluid">
+        <div ui-view="sidebar"></div>
+        <div ui-view></div>
+        <div ui-view="footer"></div>
+    </div>
+</div>
